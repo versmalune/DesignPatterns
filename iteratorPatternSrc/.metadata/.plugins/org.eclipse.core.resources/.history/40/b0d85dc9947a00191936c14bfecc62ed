@@ -1,0 +1,8 @@
+package patterns;
+
+public class Iterator {
+
+	public boolean hasNext();
+	public Object next();
+
+}

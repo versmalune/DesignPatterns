@@ -1,0 +1,11 @@
+package patterns;
+
+public class NameRepo implements Container {
+	public String names[] = {'A', 'B', 'C'};
+	
+	public Iterator getIterator() {
+		return new NameIterator();
+	}
+	
+	
+}

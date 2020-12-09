@@ -1,0 +1,15 @@
+package patterns;
+
+public class Demo {
+
+	NameRepo nameRepo = new NameRepo();
+	
+	public static void main(String[] args) {
+		for(Iterator i = nameRepo.getIterator(); i.hasNext();) {
+			String name = (String)i.next();
+			System.out.println("Name: " + name);
+		}
+
+	}
+
+}
